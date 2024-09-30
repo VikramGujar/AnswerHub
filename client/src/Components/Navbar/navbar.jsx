@@ -1,10 +1,16 @@
 import React from 'react';
-import '../Styles/navbar.css';
+import {Link,useNavigate} from 'react-router-dom';
+import {useSelector,useDispatch} from react-redux;
+
+
+
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        {/* Logo Section */}
+    <nav className="main-nav">
+      <div className="navbar">
+        <button className=''>
+
+        </button>
         <a href="/">AnswerHUB</a>
       </div>
       <div className="navbar-links">
